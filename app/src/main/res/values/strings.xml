@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NavRiders</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Bluetooth</string>
+    <string name="title_notifications">Navigation</string>
+    <string name="title_on">Scan Bluetooth</string>
+    <string name="title_off">Turn Off</string>
+    <string name="title_connect">Bond Connection</string>
+</resources>
