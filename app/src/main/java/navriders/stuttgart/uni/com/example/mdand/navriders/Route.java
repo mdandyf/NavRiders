@@ -27,6 +27,7 @@ public class Route {
     private int distanceValue;
     private String endAddressText;
     private PolylineOptions polyOptions;
+    private LatLng point;
 
     public PolylineOptions getPolyOptions() {
         return polyOptions;
@@ -203,6 +204,10 @@ public class Route {
         builder.include(northeast);
         builder.include(southwest);
         this.latLgnBounds = builder.build();
+    }
+
+    public LatLng getPoint(){
+        return point;
     }
 
 }
